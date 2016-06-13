@@ -1,4 +1,3 @@
-/*
 var CommentList = React.createClass({
     render: function () {
         return(
@@ -17,4 +16,4 @@ var CommentForm = React.createClass({
             </div>
         );
     }
-});*/
+});
