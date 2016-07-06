@@ -103,7 +103,12 @@ var CommentBox = React.createClass({
         setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
     handleCommentSubmit: function (comment) {
-        var comments = this.state.data;
+        var comments = this.state.data; // Lay du lieu cu
+        console.log('comments: '+ comments);
+        console.log('Du lieu moi : '+ comment);
+        for(var p in comment){
+            console.log(comment[p]);
+        }
         comment.id = Date.now();
         var newComments = comments.concat([comment]);
         this.setState({data: newComments});
