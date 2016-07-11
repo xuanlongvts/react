@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello React</title>
+    <script src="../libs/react.js"></script>
+    <script src="../libs/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<div id="example1"></div>
+<div id="example2"></div>
+
+<script type="text/babel">
+    var aTag = React.createElement('a', {href: 'http://google.com/', target: '_blank'}, 'Hello world!');
+    ReactDOM.render(
+            aTag,
+            document.getElementById('example')
+    );
+
+
+    // Not JSX
+    var li1 = React.createElement('li', null, 'First text Content');
+    var li2 = React.createElement('li', null, 'Second text Content');
+    var ul = React.createElement('ul', {className: 'my-fist'}, li1, li2);
+    ReactDOM.render(
+            ul,
+            document.getElementById('example1')
+    );
+
+    // HTML tags
+    var myDivElement = <div className="foo">Foo</div>;
+    ReactDOM.render(
+            myDivElement,
+            document.getElementById('example2')
+    );
+</script>
+</body>
+</html>
