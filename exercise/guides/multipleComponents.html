@@ -9,6 +9,7 @@
 </head>
 <body>
 <div id="example"></div>
+<div id="example1"></div>
 <script type="text/babel">
     var Avatar = React.createClass({
         render: function () {
@@ -43,6 +44,38 @@
         <Avatar pagename="Engineering" />,
             document.getElementById('example')
     );
+
+    var data = [
+        {
+            id: 1,
+            text: 'Long le'
+        },
+        {
+            id: 2,
+            text: 'Messi'
+        }
+    ];
+
+    var Component = React.createClass({
+        render: function () {
+            var results = this.props.results;
+            return(
+                    <ol>
+                        {
+                                results.map(function (result) {
+                                    return <li key={result.id}>{result.text}</li>;
+                                })
+                        }
+                    </ol>
+            );
+        }
+    });
+
+    ReactDOM.render(
+        <Component results={data} />,
+            document.getElementById('example1')
+    );
+
 
 </script>
 </body>
