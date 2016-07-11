@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactivity and Dynamic UIs</title>
+    <script src="../libs/react.js"></script>
+    <script src="../libs/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+
+<script type="text/babel">
+    class LikeButton extends React.Component{
+        constructor(){
+            super();
+            this.state = {
+                liked: false
+            };
+            this.handleClick = this.handleClick.bind(this);
+            console.log('init');
+        }
+        handleClick(){
+            console.log('1: ' + this.state.liked);
+            this.setState({
+                liked: !this.state.liked
+            });
+            console.log('2:  ' + this.state.liked);
+        }
+        render(){
+            console.log('3:  ' + this.state.liked);
+            const text = this.state.liked?'liked':'haven\'t liked';
+            return(
+                <div onClick = {this.handleClick}>
+                    You {text} this. Click to toggle.
+                </div>
+            );
+        }
+    }
+
+    ReactDOM.render(
+            <LikeButton />,
+            document.getElementById('example')
+    );
+
+</script>
+</body>
+</html>
