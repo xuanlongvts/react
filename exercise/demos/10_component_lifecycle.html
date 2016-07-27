@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component Lifecycle</title>
+    <script src="../libs/react.js"></script>
+    <script src="../libs/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+<h1>component Lifecycle</h1>
+<div id="example"></div>
+<script type="text/babel">
+    var Hello = React.createClass({
+        getInitialState: function () {
+            console.log('getInitialState');
+            return {
+                opacity: 1.0
+            };
+        },
+        componentDidMount: function () {
+            console.log('componentDidMount');
+            this.timer = setInterval(function(){
+                var opacity = this.state.opacity;
+                opacity -= .05;
+                if(opacity < .1){
+                    opacity = 1;
+                }
+                this.setState({opacity: opacity});
+                console.log(this.state.opacity);
+            }.bind(this), 2000);
+        },
+        render: function () {
+            return(
+                    <h3 style={{opacity: this.state.opacity}}>
+                        Hello {this.props.name}
+                    </h3>
+            );
+        }
+    });
+
+    ReactDOM.render(
+            <Hello name="world" />,
+            document.getElementById('example')
+    );
+</script>
+</body>
+</html>
