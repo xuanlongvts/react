@@ -13,7 +13,7 @@
 
 <script language="javascript">
 
-    var contact = [
+    var contacts = [
         {
             key: 1,
             name: 'James Nelson',
@@ -30,7 +30,7 @@
         },
     ];
 
-    var listElements = contact
+    var listElements = contacts
             .filter(function (contact) {
                 console.log('aaa');
                 return contact.email;
@@ -41,13 +41,15 @@
                     React.createElement('h2', {}, contact.name),
                         React.createElement('a', {href: 'mailto:' + contact.email}, contact.email)
                 )
-            })
+            });
+
+    console.log(listElements);
 
     var rootElement =
             React.createElement('div',{},
                 React.createElement('h1', {}, "Contacts"),
                 React.createElement('ul', {}, listElements)
-            )
+            );
 
     ReactDOM.render(
             rootElement,
