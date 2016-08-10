@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raw React</title>
+    <script src="../../libs/react.js"></script>
+    <script src="../../libs/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+<h1>Raw React</h1>
+<div id="react-app"></div>
+
+<script language="javascript">
+    var rootElement =
+            React.createElement('div',{},
+                React.createElement('h1', {}, "Contacts"),
+                React.createElement('ul', {},
+                    React.createElement('li', {},
+                            React.createElement('h2', {}, "Nong nờ"),
+                            React.createElement('a', {href: 'mailto:xuanlongvts@gmail.com'}, 'nongno@gmail.com')
+                    ),
+                    React.createElement('li', {},
+                        React.createElement('h2', {}, 'Joe Citizen'),
+                        React.createElement('a', {href: 'mailto:abc@gmail.com'}, 'cde@gmail.com')
+                    )
+                )
+            )
+
+    ReactDOM.render(
+            rootElement,
+            document.getElementById('react-app')
+    );
+</script>
+</body>
+</html>
