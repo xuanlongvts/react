@@ -1,0 +1,34 @@
+{
+  "name": "react-mui-router-sample",
+  "version": "1.0.0",
+  "description": "reactjs-mui-router-sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "build-simple": "webpack --config webpack-simple-route.config.js --progress --colors",
+    "build-nest": "webpack --config webpack-nested-route.config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "reactjs",
+    "material-ui",
+    "react-router"
+  ],
+  "author": "phungnc",
+  "license": "ISC",
+  "homepage": "/reactjs-mui-router-sample#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "material-ui": "^0.15.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "webpack": "^1.13.1"
+  }
+}
