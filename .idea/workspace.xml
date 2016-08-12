@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="166e060d-f2d6-4f6a-b374-cbe4f6e7c6b1" name="Default" comment="[learning react] remove React Router">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise/react-router/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise/react-router/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise/react-router/style.css" />
+    <list default="true" id="166e060d-f2d6-4f6a-b374-cbe4f6e7c6b1" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/exercise/react-router/App.js" afterPath="$PROJECT_DIR$/exercise/react-router/demo01/App.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/exercise/react-router/index.html" afterPath="$PROJECT_DIR$/exercise/react-router/demo01/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/exercise/react-router/style.css" afterPath="$PROJECT_DIR$/exercise/react-router/demo01/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react.iws" />
@@ -27,27 +27,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/react-router/index.html">
+        <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise/react-router/App.js">
+        <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+            <state relative-caret-position="366">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/react-router/style.css">
+        <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
@@ -206,6 +206,10 @@
               <option name="myItemId" value="react-router" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo01" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -241,11 +245,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise/react-router/demo01" />
       <recent name="$PROJECT_DIR$/exercise/react-router" />
       <recent name="D:\xampp\htdocs\Research\gitHub_project\react\exercise\reactRouter\src" />
       <recent name="D:\xampp\htdocs\Research\gitHub_project\react\exercise\reactRouter" />
       <recent name="$PROJECT_DIR$/exercise/reactRouter" />
-      <recent name="$PROJECT_DIR$/exercise/demos/displayingNewData" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\Research\gitHub_project\react\exercise\reactRouter\src\js" />
@@ -348,7 +352,7 @@
       <workItem from="1470905708835" duration="2581000" />
       <workItem from="1470909879163" duration="2200000" />
       <workItem from="1470931254387" duration="1997000" />
-      <workItem from="1470974105639" duration="2625000" />
+      <workItem from="1470974105639" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="[learning react] add Project">
       <created>1465803398779</created>
@@ -553,17 +557,24 @@
       <option name="project" value="LOCAL" />
       <updated>1470932509944</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[learning react] add React Router">
+      <created>1470977308427</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1470977308427</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104041000" />
+    <option name="totallyTimeSpent" value="104662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1873" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10595303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10595303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -610,9 +621,9 @@
     <MESSAGE value="[learning react] multiple components" />
     <MESSAGE value="[learning react] exercise" />
     <MESSAGE value="[learning react] Raw react" />
-    <MESSAGE value="[learning react] add React Router" />
     <MESSAGE value="[learning react] remove React Router" />
-    <option name="LAST_COMMIT_MESSAGE" value="[learning react] remove React Router" />
+    <MESSAGE value="[learning react] add React Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="[learning react] add React Router" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -861,15 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/react-router/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/react-router/style.css">
+    <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
@@ -877,10 +880,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/react-router/App.js">
+    <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/react-router/demo01/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
           <folding />
         </state>
       </provider>
