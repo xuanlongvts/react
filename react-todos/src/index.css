@@ -1,0 +1,28 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.appTodo{
+	width: 300px;
+	margin-left: 10px;
+}
+
+.appTodo input{
+	outline: none;
+	padding: 3px 10px;
+	font-size: 15px;
+}
+
+.listTodos{
+	list-style: none;
+}
+
+.listTodos li{
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+	margin-bottom: 10px;
+}

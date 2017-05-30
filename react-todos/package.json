@@ -1,0 +1,16 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "React todos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start"
+  },
+  "author": "xuanlongvts@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-scripts": "^1.0.7"
+  }
+}
