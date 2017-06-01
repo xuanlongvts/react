@@ -1,0 +1,52 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	margin-left: 20px;
+}
+
+.appTodo{
+	width: 300px;
+	margin-left: 20px;
+}
+
+.appTodo input{
+	outline: none;
+	padding: 3px 10px;
+	font-size: 15px;
+}
+
+.formTodo .each-row{
+	margin-bottom: 15px;
+}
+
+.btn-submit{
+	padding: 5px 20px;
+	font-weight: 700;
+	font-size: 14px;
+	border-radius: 5px;
+	color: purple;
+	outline: none;
+}
+
+.listTodos{
+	list-style: none;
+	padding: 0;
+}
+
+.listTodos li{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.listTodos a{
+	display: block;
+	color: #aaa;
+	padding: 5px;
+	text-decoration: none;
+}
