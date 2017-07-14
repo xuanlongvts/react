@@ -33,7 +33,6 @@
         $(document).ready(function(){
             
             $('#frmSubmit').submit(function(){
-                
                 socket.emit('chat_mess', $('#m').val().trim());
                 $('#m').val('').focus();
                 return false;
