@@ -38,7 +38,7 @@
                 return false;
             });
 
-            socket.on('chat_mess', function (msg) {
+            socket.on('server-send', function (msg) {
                 $('#messages').append($('<li>').text(msg));
             });
         });
