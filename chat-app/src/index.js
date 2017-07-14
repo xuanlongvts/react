@@ -14,7 +14,9 @@ io.on('connection', function (socket) {
 
     socket.on('chat_mess', function (msg) {
         //console.log('chat_mess: ', msg);
-        io.emit('server-send', msg);
+        //io.emit('server-send', msg);
+        //socket.emit('server-send', msg);
+        socket.broadcast.emit('server-send', msg);
     });
 });
 
