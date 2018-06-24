@@ -1,0 +1,49 @@
+.App {
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #7a0000cb;
+    background: rgba(231, 231, 231, 0.733);
+}
+
+.each-board {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.each-board h5 {
+    font-size: 20px;
+}
+
+.each-board span {
+    font-size: 15px;
+}
+
+.each-board em {
+    color: red;
+    font-size: 30px;
+}
+
+.pass {
+    font-size: 20px;
+}
+
+.error-lay {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.red {
+    color: red;
+}
