@@ -38,7 +38,8 @@ button:hover {
     font-size: 20px;
 }
 
-.error-lay {
+.error-lay,
+.contextApi {
     border-top: 1px solid #333;
     padding-top: 20px;
     margin-top: 50px;
@@ -46,4 +47,11 @@ button:hover {
 
 .red {
     color: red;
+}
+
+.theme {
+    padding: 30px 0;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    font-size: 30px;
 }

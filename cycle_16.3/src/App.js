@@ -4,6 +4,8 @@ import SinglePlayer from './SinglePlayer';
 import BuggyButton from './BuggyButton';
 import ErrorBoundary from './ErrorBoundary';
 
+import ContextApi from './contextApi';
+
 const initState = [
     {
         name: 'A',
@@ -54,9 +56,15 @@ class App extends Component {
                     })}
                 </div>
                 <div className="error-lay">
+                    <h1>componentDidCatch</h1>
                     <ErrorBoundary>
                         <BuggyButton />
                     </ErrorBoundary>
+                </div>
+
+                <div className="contextApi">
+                    <h1>context api</h1>
+                    <ContextApi />
                 </div>
             </div>
         );
