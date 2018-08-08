@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 3px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+button:active {
+    border: 1px solid green;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}

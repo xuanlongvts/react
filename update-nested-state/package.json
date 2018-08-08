@@ -1,14 +1,13 @@
 {
-  "name": "modal-dialogs",
+  "name": "update-nested-state",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
-    "prop-types": "^15.5.10",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
