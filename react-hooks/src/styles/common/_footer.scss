@@ -1,0 +1,22 @@
+#footer {
+    background: $blackGrey;
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
+
+    .cpyRight {
+        color: $white;
+        margin-top: 12px;
+        font-size: 11px;
+
+        @include iphonePlus {
+            font-size: 14px;
+        }
+    }
+
+    p {
+        color: $white;
+        margin-top: 20px;
+        font-size: 11px;
+    }
+}
